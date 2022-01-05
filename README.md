@@ -12,7 +12,7 @@ Details: You will write your program in the "pair programmingù model": one of y
 2.	START FILE: There is no start file for this lab. In PyCharm, in order to create a new Python source code file, choose New->Project, then New->Python File from the available menu. Name your new file LastName1LastName2Lab0ù and click OK.ù 
 
 3.	CODE: Write code in your LastName1LastName2Lab0.py file. First type   
-print( "CS151 Lab 0"ù)
+print( "CS151 Lab 0")
 inside the file.
 
 4.	RUN: Run your program by clicking on the Runù menu, then choosing Runù from the drop down menu. Note that once you complete this step once, you can instead click on the green arrow at the top right.
