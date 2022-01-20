@@ -49,7 +49,7 @@ It is assumed that you have both already clicked on the link on Moodle to get ac
 10.	COMMENT: Comments are part of the Python file but not part of the code. They are used to explain how the code works to human readers of the code.  Once your program runs properly, add introductory comments at the very top of your file that match the ones below but are edited to be personalized to you and your partner (**replace the brackets and the text in the brackets with what the text in the brackets asks for**). The comments will appear as a different color in PyCharm (light grey). Make sure the program runs correctly after the comments are inserted, and that you understand what is being said in each line of the comments.
   ```
   # Programmers:  [your names here]
-  # Course:  CS151, Dr. Olsen  
+  # Course:  CS151, Dr. Kenyon  
   # Due Date: 1/25/22
   # Lab Assignment: 0
   # Problem Statement:  Output information about the programmers
