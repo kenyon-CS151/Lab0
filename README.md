@@ -1,6 +1,8 @@
 # Lab 0 -- Getting Started with Python, PyCharm, and GitHub
-10 points										
-Due: 1/25/22
+
+10 points			
+
+Due: Tuesday 1/25/22
 
 ## Purpose:  
 
@@ -12,9 +14,13 @@ Write a program that introduces you and your partner to the class (this informat
 
 ### Details: 
 
-You will write your program in the “pair programming” mode -- one of you is the driver while the other is the navigator.  Once the first driver has written the statements about their partner, switch roles. The steps below match the tutorial, and the GitHub Quick Guide on Moodle. You may need to reference both.
+You will write your program in the “pair programming” mode -- one of you is the driver while the other is the navigator.  Once the first driver has written the statements about their partner, switch roles. Remember that the navigator (e.g. the person not currently the driver) is helping with determining what code should be written. The steps below match the tutorial, and the GitHub Quick Guide on Moodle. You may need to reference both.
+
+It is assumed that you have both already clicked on the link on Moodle to get access to your Lab0 repository. The first person createst the team name (last names of participants) and the second person joins that team.
 
 ### Steps:
+
+#### Driver 1 Writes Code while sharing their screen in Zoom:
 
 1.	CLONE REPOSITORY: Open PyCharm and follow the steps in the “GitHub Quick Guide” document for “Starting an Assignment” to create and clone your Lab0 repository. The Quick Guide document is on Moodle under “General Resources”.
 
@@ -22,36 +28,44 @@ You will write your program in the “pair programming” mode -- one of you is 
 
 3.	CODE: Write code in your Lab0.py file. First type  `print ("CS151 Lab 0")` into the file, like in the video you watched yesterday.
 
-4.	RUN: Run your program by clicking on the “Run” menu, then choosing “Run” from the drop down menu. Note that once you complete this step once, you can instead click on the green arrow at the top right.
+4.	RUN and TEST: Run your program by clicking on the “Run” menu, then choosing “Run” from the drop down menu. Note that once you complete this step once, you can instead click on the green arrow at the top right. Look at the output at the bottom of PyCharm. Does it appear the way you want? If not, or if instead you see an error, try to fix your code so that it does what you want (you will need to run again afterward).
 
-5.	TEST: Look at the output at the bottom of PyCharm. Does it appear the way you want? If not, or if instead you see an error, try to fix your code so that it does what you want (you will need to run again afterward).
-
-6.	COMPLETE LAB: Now, write code to output 5 statements about each lab partner so that they also appear at the bottom of PyCharm when the file is run. 
-  * Before the 5 statements, output the name of the person who is about to be described. 
+5. CONTINUE CODING: Now, write code to output the name of your partner, and then output 5 separate statements about your lab partner so that they also appear at the bottom of PyCharm when the file is run. Your lab partner (e.g. the current Navigator) should tell you want to write about them. 
   * Try to be creative in your statements. 
-  * Take turns driving -- the driver should write statements about their partner, then switch roles. 
-  * You will have to run and test again to make sure it works. Warning -- you should save often as you code. If your computer or PyCharm crashes and you haven’t saved your work, it’s lost forever! File->Save All will save your work.
+  * This step should involve 6 print statements.
 
-7.	COMMENT: Comments are part of the Python file but not part of the code. They are used to explain how the code works to human readers of the code.  Once your program runs properly, add introductory comments at the top of your file that match the ones below but are edited to be personalized to you and your partner (replace the brackets and the text in the brackets with what the text in the brackets asks for). The comments will appear as a different color in PyCharm (light grey). Make sure the program runs correctly after the comments are inserted.
+5.	RUN and TEST: Run your code again and make sure it is working correctly, i.e. showing your partner's name and then the 5 separate print statements about them. 
+
+6. COMMIT And PUSH: Commit and push your code to github.com. Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
+
+#### Driver 2 Writes Codewhile sharing their screen in Zoom:
+
+7. It is now driver 2's turn to write the code. They should first Clone the Repository if they haven't already.
+
+8. You should see the Lab0.py file that driver 1 created and the code still there from the prior steps. It is now time to write code about driver 1. Driver 2 should create 6 print statements: 1 that outputs the name of their partner, and the other 5 that each say something about driver 1. Driver 1 is now the navigator, and should supply the information to be added to the print statements.
+
+9.  RUN and TEST: Run your program by clicking on the “Run” menu, then choosing “Run” from the drop down menu. Note that once you complete this step once, you can instead click on the green arrow at the top right. Look at the output at the bottom of PyCharm. Does it appear the way you want? If not, or if instead you see an error, try to fix your code so that it does what you want (you will need to run again afterward).
+
+10.	COMMENT: Comments are part of the Python file but not part of the code. They are used to explain how the code works to human readers of the code.  Once your program runs properly, add introductory comments at the very top of your file that match the ones below but are edited to be personalized to you and your partner (**replace the brackets and the text in the brackets with what the text in the brackets asks for**). The comments will appear as a different color in PyCharm (light grey). Make sure the program runs correctly after the comments are inserted, and that you understand what is being said in each line of the comments.
   ```
-  # Programmers:  [your name here]
-  # Course:  CS151, Dr. Kenyon
-  # Date: 1/21/22
+  # Programmers:  [your names here]
+  # Course:  CS151, Dr. Olsen  
+  # Due Date: 1/25/22
   # Lab Assignment: 0
-  # Problem Statement:  [what problem does your code solve; what does the code do for you?]
-  # Data In: [what information do you request from the user? – for Lab0, put “None”]
-  # Data Out:  [What information do you display for the user?]
-  # Other files needed:  [This won’t be relevant until later in the course.]
+  # Problem Statement:  Output information about the programmers
+  # Data In: None, there is no user input in this program
+  # Data Out:  The names of the programmers and five statements about each of them
   # Credits: [Is your code based on an example in the book, in class, or something else?  
               Reminder: you should never take code from the Internet or another person.]
   ```
-8.	Once you are done in lab, even if you haven’t finished the assignment yet, you need to Commit and Push your changes. Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
 
-9. Show your program running and on GitHub to the professor before leaving the classroom.
+11.	Once you are done in lab, even if you haven’t finished the assignment yet, you need to Commit and Push your changes. Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
 
-What to Submit:
+12. Show your program running and on GitHub to the professor before leaving the classroom. If class is not over yet when you finish, use the button to call the professor to your Zoom breakout room. If it is th end of the class period, you can share your screen quickly before leaving the zoom meeting.
 
-1.	Commit & Push your repository to GitHub. Go to GitHub.com to check that it worked. (1 file per pair)
+### What to Submit:
+
+1.	Commit & Push your repository to GitHub. It should include a Lab0.py with all requested lines of code and the introductory comments at the very top. Go to GitHub.com to check that it worked. (1 file per pair)
 2.	Each partner should independently write a short (around 200 words) reflection of what they learned in Lab 0, and what it was like working with their partner. Submit to Moodle under the Lab0 assignment.
 
 Other Useful Links:
